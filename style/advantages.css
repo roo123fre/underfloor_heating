@@ -8,6 +8,7 @@
 
 .advantages__title {
     flex-basis: 50%;
+    max-width: 480px;
 }
 
 .advantages__list {
@@ -17,4 +18,16 @@
 .advantages__item {
     background-image: url("../image/star.svg");
     background-position: left;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-left: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.advantages__item:last-child{
+    margin-bottom: 0;
 }
