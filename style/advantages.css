@@ -1,0 +1,20 @@
+.advantages__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.advantages__title {
+    flex-basis: 50%;
+}
+
+.advantages__list {
+    flex-basis: 50%;
+}
+
+.advantages__item {
+    background-image: url("../image/star.svg");
+    background-position: left;
+}

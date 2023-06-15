@@ -1,0 +1,43 @@
+.hero {
+    padding-top: 0;
+}
+
+.hero__container {
+    display: flex;
+    gap: 10px;
+}
+
+.hero__content {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero__title {
+    margin-bottom: 32px;
+}
+
+.hero__description {
+    flex-grow: 1;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.hero__slider-wrapper {
+    flex-basis: 50%;
+}
+
+.hero__image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.hero__slider-btn {}
+
+.hero__slider-btn_prev {}
+
+.hero__slider-btn_next {}

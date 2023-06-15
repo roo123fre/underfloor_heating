@@ -1,0 +1,16 @@
+.header {
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__button {
+    background-color: transparent;
+    border: 1px solid #232020;
+}
